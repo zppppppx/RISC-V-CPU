@@ -1,0 +1,66 @@
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# Reading F:/learningsoftware/modelsim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/IF.mpf
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# Loading project IF
+# Compile of add_sel.v was successful.
+# Compile of adder_4bits.v was successful.
+# Compile of adder_32bits.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_tb.v was successful.
+# Compile of InstructionROM.v was successful.
+# Compile of PC.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -novopt work.IF_tb
+# vsim -gui F:\learning_data\computer_organization\lab30_Risc5CPU\sim\IF\IF.mpf 
+# Start time: 09:01:56 on Dec 23,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/work.IF_tb
+# Loading work.IF_tb
+# Refreshing F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/work.IF
+# Loading work.IF
+# Refreshing F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/work.PC
+# Loading work.PC
+# Refreshing F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/work.adder_32bits
+# Loading work.adder_32bits
+# Refreshing F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/work.adder_4bits
+# Loading work.adder_4bits
+# Refreshing F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/work.add_sel
+# Loading work.add_sel
+# Refreshing F:/learning_data/computer_organization/lab30_Risc5CPU/sim/IF/work.InstructionROM
+# Loading work.InstructionROM
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/IF.v(26): [PCDPC] - Port size (1) does not match connection size (32) for port 'ci'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/adder_32bits.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /IF_tb/uut/adder_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/adder_32bits.v
+add wave sim:/IF_tb/*
+run -all
+# ** Note: $stop    : F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/IF_tb.v(48)
+#    Time: 2300 ns  Iteration: 0  Instance: /IF_tb
+# Break in Module IF_tb at F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/IF_tb.v line 48
+# Causality operation skipped due to absence of debug database file
+# End time: 09:19:26 on Dec 23,2020, Elapsed time: 0:17:30
+# Errors: 0, Warnings: 3

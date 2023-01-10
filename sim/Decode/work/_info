@@ -1,0 +1,236 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/learningsoftware/modelsim/examples
+vadd_sel
+Z0 !s110 1606740019
+!i10b 1
+!s100 BhmjYgNQzof5E`S37]L>i1
+I>GPR2@UXjH:@]dX6U>MS00
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/learning_data/computer_organization/lab30_Risc5CPU/sim/Decode
+Z3 w1606296533
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/add_sel.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/add_sel.v
+L0 1
+Z4 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1606740019.536000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/add_sel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/add_sel.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadder_32bits
+R0
+!i10b 1
+!s100 `?<oC^ofBT;7G_@@=m8EN3
+IJ3`6ik^PkbM[`Zn3lUJ7G0
+R1
+R2
+R3
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_32bits.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_32bits.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1606740019.705000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_32bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_32bits.v|
+!i113 0
+R5
+vadder_4bits
+R0
+!i10b 1
+!s100 MES7aCA8[BWPH^lhd[VPf3
+IfJLmZ1dPEWeRXL08J1<3M3
+R1
+R2
+R3
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_4bits.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_4bits.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1606740019.620000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_4bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_4bits.v|
+!i113 0
+R5
+vBranchTest
+R0
+!i10b 1
+!s100 2E<H[XSgolD:Ge:C_JUYm2
+IddD[0b?QaKm5R3jejM7hJ0
+R1
+R2
+w1606309181
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/BranchTest.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/BranchTest.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1606740019.788000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/BranchTest.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/BranchTest.v|
+!i113 0
+R5
+n@branch@test
+vDecode
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 HgdHgh;n7F2Ah@hXbSXKI3
+IHgCJUeeMmR5Eah<Mf5;MG2
+R2
+w1606746732
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode.v
+L0 6
+R4
+!s108 1608725600.687000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode.v|
+!i113 0
+R5
+n@decode
+vDecode_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 IoQTMizHS5Y:ib7N[_3VG0
+IUiYBTh8YWNUILzjM8BW7D0
+R2
+w1606295375
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode_tb.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode_tb.v
+L0 6
+R4
+!s108 1606740019.956000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode_tb.v|
+!i113 0
+R5
+n@decode_tb
+vID
+Z6 !s110 1606740020
+!i10b 1
+!s100 VHNN?eEJ[X[7oD5bd??8f3
+I]V?RV;O<h_?UHNj`0of5e0
+R1
+R2
+w1606629474
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ID.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ID.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1606740020.040000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ID.v|
+!i113 0
+R5
+n@i@d
+vImmGen
+R6
+!i10b 1
+!s100 2k4bWgZoR@Ub0SX66XQeO0
+Im@^nfG@JIMjlX45^KkHdN2
+R1
+R2
+w1606735312
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1606740020.128000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen.v|
+!i113 0
+R5
+n@imm@gen
+vImmGen_tb
+R6
+!i10b 1
+!s100 Q3SM2EDljfSoaSS@8@IEa3
+I2Hoz?h9nKCEd74z1YHF8;0
+R1
+R2
+w1606218792
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen_tb.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1606740020.211000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen_tb.v|
+!i113 0
+R5
+n@imm@gen_tb
+vRAW_Registers
+R6
+!i10b 1
+!s100 AIT<m<ko8ZK7fW`TEll;K1
+I9RH2C:??dDd99Fm?K7cM13
+R1
+R2
+w1606723467
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RAW_Registers.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RAW_Registers.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1606740020.295000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RAW_Registers.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RAW_Registers.v|
+!i113 0
+R5
+n@r@a@w_@registers
+vRBW_Registers
+R6
+!i10b 1
+!s100 e0A30aLEX^=@9NTP_OD]I1
+I2G0eUHZZKmK_XKVGlzWG02
+R1
+R2
+w1606723473
+8F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RBW_Registers.v
+FF:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RBW_Registers.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1606740020.377000
+!s107 F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RBW_Registers.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RBW_Registers.v|
+!i113 0
+R5
+n@r@b@w_@registers

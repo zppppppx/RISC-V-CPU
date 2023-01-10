@@ -1,0 +1,78 @@
+F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Decode
+
+Top level modules:
+	Decode
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/add_sel.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/add_sel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module add_sel
+
+Top level modules:
+	add_sel
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RAW_Registers.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RAW_Registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RAW_Registers
+
+Top level modules:
+	RAW_Registers
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ImmGen
+
+Top level modules:
+	ImmGen
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ID.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ID.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode_tb.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/Decode_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Decode_tb
+
+Top level modules:
+	Decode_tb
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_4bits.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_4bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits
+
+Top level modules:
+	adder_4bits
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RBW_Registers.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/RBW_Registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RBW_Registers
+
+Top level modules:
+	RBW_Registers
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen_tb.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/ImmGen_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ImmGen_tb
+
+Top level modules:
+	ImmGen_tb
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/BranchTest.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/BranchTest.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module BranchTest
+
+Top level modules:
+	BranchTest
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_32bits.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/ID_/adder_32bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_32bits
+
+Top level modules:
+	adder_32bits
+
+} {} {}}

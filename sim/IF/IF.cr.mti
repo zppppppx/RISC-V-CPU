@@ -1,0 +1,50 @@
+F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/adder_4bits.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/adder_4bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits
+
+Top level modules:
+	adder_4bits
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/adder_32bits.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/adder_32bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_32bits
+
+Top level modules:
+	adder_32bits
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/IF.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/IF.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/PC.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/PC.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/IF_tb.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/IF_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IF_tb
+
+Top level modules:
+	IF_tb
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/InstructionROM.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/InstructionROM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module InstructionROM
+
+Top level modules:
+	InstructionROM
+
+} {} {}} F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/add_sel.v {1 {vlog -work work -vopt -stats=none F:/learning_data/computer_organization/lab30_Risc5CPU/src/IF_/add_sel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module add_sel
+
+Top level modules:
+	add_sel
+
+} {} {}}

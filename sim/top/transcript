@@ -1,0 +1,132 @@
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# Reading F:/learningsoftware/modelsim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile F:/learning_data/computer_organization/lab30_Risc5CPU/sim/top/top.mpf
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable secureip are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable simprims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# ** Warning: Multiple occurences of ini variable unisims_ver are found, only first occurence will be considered.
+# Loading project top
+vsim -L simprims_ver -L unisims_ver -voptargs=+acc work.Risc5CPU_tb_v
+# vsim -gui F:\learning_data\computer_organization\lab30_Risc5CPU\sim\top\top.mpf 
+# Start time: 21:33:45 on Dec 23,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.Risc5CPU_tb_v(fast)
+# Loading work.Risc5CPU(fast)
+# Loading work.IF(fast)
+# Loading work.PC(fast)
+# Loading work.adder_32bits(fast)
+# Loading work.adder_4bits(fast)
+# Loading work.add_sel(fast)
+# Loading work.InstructionROM(fast)
+# Loading work.IF_ID(fast)
+# Loading work.ID(fast)
+# Loading work.RAW_Registers(fast)
+# Loading work.RBW_Registers(fast)
+# Loading work.BranchTest(fast)
+# Loading work.Decode(fast)
+# Loading work.ID_EX(fast)
+# Loading work.EX(fast)
+# Loading work.ALU(fast)
+# Loading work.Bdeal(fast)
+# Loading work.Forwarding(fast)
+# Loading work.MUX(fast)
+# Loading work.EX_MEM(fast)
+# Loading work.DataRAM(fast)
+# Loading work.DataRAM_dist_mem_gen_v8_0_12(fast)
+# Loading simprims_ver.GND(fast)
+# Loading work.DataRAM_dist_mem_gen_v8_0_12_synth(fast)
+# Loading work.DataRAM_spram(fast)
+# Loading simprims_ver.FDRE(fast)
+# Loading simprims_ver.RAM64X1S(fast)
+# Loading work.MEM_WB(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rdAddr_wb'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rdAddr_mem'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rs1Addr_ex'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rs2Addr_ex'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Risc5CPU.v(85): [PCDPC] - Port size (6) does not match connection size (32) for port 'a'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/vivado201704/Risc5CPU.srcs/sources_1/ip/DataRAM/DataRAM_sim_netlist.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/DataRAM_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/vivado201704/Risc5CPU.srcs/sources_1/ip/DataRAM/DataRAM_sim_netlist.v
+add wave sim:/Risc5CPU_tb_v/*
+run -all
+# ** Note: $stop    : F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Risc5CPU_tb.v(39)
+#    Time: 2151 ns  Iteration: 0  Instance: /Risc5CPU_tb_v
+# Break in Module Risc5CPU_tb_v at F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Risc5CPU_tb.v line 39
+# Compile of Risc5CPU.v was successful.
+vsim -L simprims_ver -L unisims_ver -voptargs=+acc work.Risc5CPU_tb_v
+# vsim 
+# Start time: 21:40:37 on Dec 23,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.Risc5CPU_tb_v(fast)
+# Loading work.Risc5CPU(fast)
+# Loading work.IF(fast)
+# Loading work.PC(fast)
+# Loading work.adder_32bits(fast)
+# Loading work.adder_4bits(fast)
+# Loading work.add_sel(fast)
+# Loading work.InstructionROM(fast)
+# Loading work.IF_ID(fast)
+# Loading work.ID(fast)
+# Loading work.RAW_Registers(fast)
+# Loading work.RBW_Registers(fast)
+# Loading work.BranchTest(fast)
+# Loading work.Decode(fast)
+# Loading work.ID_EX(fast)
+# Loading work.EX(fast)
+# Loading work.ALU(fast)
+# Loading work.Bdeal(fast)
+# Loading work.Forwarding(fast)
+# Loading work.MUX(fast)
+# Loading work.EX_MEM(fast)
+# Loading work.DataRAM(fast)
+# Loading work.DataRAM_dist_mem_gen_v8_0_12(fast)
+# Loading simprims_ver.GND(fast)
+# Loading work.DataRAM_dist_mem_gen_v8_0_12_synth(fast)
+# Loading work.DataRAM_spram(fast)
+# Loading simprims_ver.FDRE(fast)
+# Loading simprims_ver.RAM64X1S(fast)
+# Loading work.MEM_WB(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rdAddr_wb'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rdAddr_mem'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rs1Addr_ex'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/EX.v(35): [PCDPC] - Port size (4) does not match connection size (5) for port 'rs2Addr_ex'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/EX_inst/Forwarding_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Forwarding.v
+# ** Warning: (vsim-3015) F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Risc5CPU.v(85): [PCDPC] - Port size (6) does not match connection size (32) for port 'a'. The port definition is at: F:/learning_data/computer_organization/lab30_Risc5CPU/vivado201704/Risc5CPU.srcs/sources_1/ip/DataRAM/DataRAM_sim_netlist.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /Risc5CPU_tb_v/uut/DataRAM_inst File: F:/learning_data/computer_organization/lab30_Risc5CPU/vivado201704/Risc5CPU.srcs/sources_1/ip/DataRAM/DataRAM_sim_netlist.v
+add wave sim:/Risc5CPU_tb_v/*
+run -all
+# ** Note: $stop    : F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Risc5CPU_tb.v(39)
+#    Time: 2151 ns  Iteration: 0  Instance: /Risc5CPU_tb_v
+# Break in Module Risc5CPU_tb_v at F:/learning_data/computer_organization/lab30_Risc5CPU/src/riscv/Risc5CPU_tb.v line 39
+# End time: 23:03:39 on Dec 23,2020, Elapsed time: 1:23:02
+# Errors: 0, Warnings: 5
